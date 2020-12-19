@@ -1,6 +1,6 @@
 {
   "name": "@whaaaley/test-package",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "test-package",
   "homepage": "https://github.com/whaaaley/test-package#readme",
   "bugs": {
@@ -14,6 +14,6 @@
   "author": "Dustin Dowell",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "npm publish --access public && npm publish --registry=https://npm.pkg.github.com"
   }
 }
