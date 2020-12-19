@@ -1,0 +1,11 @@
+{
+  "name": "@whaaaley/test-package",
+  "version": "0.0.1",
+  "description": "test-package",
+  "license": "MIT",
+  "author": "Dustin \"Whaley\" Dowell",
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm publish && npm publish --registry=https://npm.pkg.github.com"
+  }
+}
