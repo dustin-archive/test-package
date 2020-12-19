@@ -1,11 +1,19 @@
 {
   "name": "@whaaaley/test-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "test-package",
+  "homepage": "https://github.com/whaaaley/test-package#readme",
+  "bugs": {
+    "url": "https://github.com/whaaaley/test-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whaaaley/test-package.git"
+  },
   "license": "MIT",
-  "author": "Dustin \"Whaley\" Dowell",
+  "author": "Dustin Dowell",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish && npm publish --registry=https://npm.pkg.github.com"
+    "publish-all": "npm publish --access public && npm publish --registry=https://npm.pkg.github.com"
   }
 }
