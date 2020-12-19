@@ -14,6 +14,6 @@
   "author": "Dustin Dowell",
   "main": "index.js",
   "scripts": {
-    "publish-all": "npm publish --access public && npm publish --registry=https://npm.pkg.github.com"
+    "start": ""
   }
 }
